@@ -1,0 +1,9 @@
+#
+# Spring Boot 配置
+spring:
+  # 配置文件
+  profiles:
+    # 激活配置
+    active:
+      - database-dev
+      - log-dev
