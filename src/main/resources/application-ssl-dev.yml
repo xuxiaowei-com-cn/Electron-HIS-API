@@ -1,0 +1,8 @@
+#
+# 服务器 配置
+server:
+  # SSL 配置
+  ssl:
+    key-store: classpath:ssl/Electron-HIS-API.jks
+    key-store-password: xuxiaowei
+    key-password: xuxiaowei

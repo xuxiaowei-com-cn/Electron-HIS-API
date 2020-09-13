@@ -7,3 +7,5 @@ spring:
     active:
       - database-dev
       - log-dev
+      - ssl-dev
+      - http2

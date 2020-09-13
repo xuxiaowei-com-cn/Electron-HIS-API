@@ -1,0 +1,7 @@
+#
+# 服务器 配置
+server:
+  # http/2 配置
+  http2:
+    # 开启 http/2 配置
+    enabled: true
