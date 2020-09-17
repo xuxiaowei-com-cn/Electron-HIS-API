@@ -67,6 +67,7 @@ COMMENT ON COLUMN "HIS"."STAFF_INFO"."CREATE_IP" IS '创建者IP，长度15(中�
 COMMENT ON COLUMN "HIS"."STAFF_INFO"."UPDATE_IP" IS '修改者IP，长度15(中文占3个字符)';
 COMMENT ON COLUMN "HIS"."STAFF_INFO"."CREATE_DATE" IS '创建时间，插入数据当前时间，Oracle自动生成，不为空：NN_STAFF_INFO__CREATE_DATE';
 COMMENT ON COLUMN "HIS"."STAFF_INFO"."UPDATE_DATE" IS '更新时间，更新数据时 Oracle自动生成，默认为null';
+COMMENT ON COLUMN "HIS"."STAFF_INFO"."DELETED" IS '逻辑删除，0 未删除，1 删除，默认值 0，不为 NULL，注解@TableLogic';
 COMMENT ON TABLE "HIS"."STAFF_INFO" IS '员工表';
 
 -- ----------------------------
